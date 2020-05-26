@@ -10,7 +10,7 @@ int main(){
 
   printf("Question 4\n");
   printf("a-)\nAnalytically=%f\n",true_value);
-  printf("b-)\nTrue Value=%.1f\nApproximation=%.1f\nPercent Error=%f\n",true_value,Approximation1,percent_error1);
+  printf("b-)\nTrue Value=%f\nApproximation=%f\nPercent Error=%f\n",true_value,Approximation1,percent_error1);
   printf("c-)\nFor n=3:\nTrue Value=%f\nApproximation=%f\nPercent Error=%f\n",true_value,Approximation2,percent_error2);
 
 
