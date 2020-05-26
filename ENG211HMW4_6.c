@@ -2,15 +2,15 @@
 int main(){
   float true_value=1104;
   float Approximation1=5286;
-  float Approximation2_1=2565;
-  float Approximation2_2=1821;
+  float Approximation2_1=1768;
+  float Approximation2_2=456.75;
   float Approximation3=1754;
   float Approximation4=38175.75;
   float percent_error1, percent_error2_1, percent_error2_2, percent_error3, percent_error4;
   // Percent Relative Error = (True value-Approximation)/True Value *100
   percent_error1=(true_value-Approximation1)/true_value*-100;
   percent_error2_1=(true_value-Approximation2_1)/true_value*-100;
-  percent_error2_2=(true_value-Approximation2_2)/true_value*-100;
+  percent_error2_2=(true_value-Approximation2_2)/true_value*100;
   percent_error3=(true_value-Approximation3)/true_value*-100;
   percent_error4=(true_value-Approximation4)/true_value*-100;
   printf("Question 6\n");
